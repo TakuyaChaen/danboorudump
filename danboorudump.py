@@ -24,7 +24,7 @@ class Danbooru():
     postdir = "posts/"
     headers = { "User-Agent" :  "Mozilla/4.0" }
     http = "http://"
-    image_regex = 'data-file-url=\"(.+)\"'
+    image_regex = 'data-file-url=\"(.+?)\"'
     tag_regex = 'data-tags=\"(.+)\"'
     exclude_list = ["!?","...","/\\/\\/\\"]
 
